@@ -1,4 +1,7 @@
 //
+//  Pelajaran terakhir "Bagian 7
+//  "Berikan Data ke Tampilan Anak"
+
 //  ContentView.swift
 //  Landmarks
 //
@@ -9,13 +12,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        LandmarkList()
+        
     }
 }
 
