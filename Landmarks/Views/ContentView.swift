@@ -1,7 +1,4 @@
 //
-//  Pelajaran terakhir "Bagian 7
-//  "Berikan Data ke Tampilan Anak"
-
 //  ContentView.swift
 //  Landmarks
 //
