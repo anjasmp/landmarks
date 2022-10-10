@@ -30,6 +30,9 @@
 		7F91964328F189AA00749F20 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F91963F28F189AA00749F20 /* HikeGraph.swift */; };
 		7F91964428F189AA00749F20 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F91964028F189AA00749F20 /* HikeDetail.swift */; };
 		7F91964528F189AA00749F20 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F91964128F189AA00749F20 /* HikeView.swift */; };
+		7FAD545A28F411DC00F9D2F9 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD545928F411DC00F9D2F9 /* CategoryRow.swift */; };
+		7FAD545C28F4175000F9D2F9 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD545B28F4175000F9D2F9 /* CategoryItem.swift */; };
+		7FAE332328F39DE100192CC0 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE332228F39DE100192CC0 /* CategoryHome.swift */; };
 		7FE66C2528E4483100150134 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE66C2428E4483100150134 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		7F91963F28F189AA00749F20 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		7F91964028F189AA00749F20 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		7F91964128F189AA00749F20 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		7FAD545928F411DC00F9D2F9 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		7FAD545B28F4175000F9D2F9 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		7FAE332228F39DE100192CC0 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		7FE66C2428E4483100150134 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +132,7 @@
 		7F8B6F5A28DE305D000BE410 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7FAE332128F39D9A00192CC0 /* Category */,
 				7F91963D28F189AA00749F20 /* Hikes */,
 				7F8B6F4128DE15E8000BE410 /* ContentView.swift */,
 				7FE66C2628E4492F00150134 /* Landmarks */,
@@ -163,6 +170,16 @@
 				7F91964128F189AA00749F20 /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		7FAE332128F39D9A00192CC0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE332228F39DE100192CC0 /* CategoryHome.swift */,
+				7FAD545928F411DC00F9D2F9 /* CategoryRow.swift */,
+				7FAD545B28F4175000F9D2F9 /* CategoryItem.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		7FE66C2628E4492F00150134 /* Landmarks */ = {
@@ -257,13 +274,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FAD545A28F411DC00F9D2F9 /* CategoryRow.swift in Sources */,
 				7F8B6F4228DE15E8000BE410 /* ContentView.swift in Sources */,
+				7FAE332328F39DE100192CC0 /* CategoryHome.swift in Sources */,
 				7F91964328F189AA00749F20 /* HikeGraph.swift in Sources */,
 				7F5ADC2128E489E9006EB95F /* Badge.swift in Sources */,
 				7F8B6F5128DE21F3000BE410 /* MapView.swift in Sources */,
 				7F91964228F189AA00749F20 /* GraphCapsule.swift in Sources */,
 				7F8B6F4028DE15E8000BE410 /* LandmarksApp.swift in Sources */,
 				7FE66C2528E4483100150134 /* FavoriteButton.swift in Sources */,
+				7FAD545C28F4175000F9D2F9 /* CategoryItem.swift in Sources */,
 				7F91964428F189AA00749F20 /* HikeDetail.swift in Sources */,
 				7F5ADC1928E47907006EB95F /* HexagonParameters.swift in Sources */,
 				7F91963C28F182EC00749F20 /* Hike.swift in Sources */,
